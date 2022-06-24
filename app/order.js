@@ -1,7 +1,9 @@
 
 
 module.exports = (cart, cb) => {
-    setTimeout(() => {
-        cb(true)
-    }, 500)
+    //send cart info to server
+    let p = new Promise((resolve, reject) => {
+        resolve(500)
+    })
+    return p;
 }
